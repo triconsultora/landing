@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://triconsultora.com/sitemap.xml
+
+# Allow all search engines to index the site
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block access to admin files if any exist
+Disallow: /admin/
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Allow CSS and JS files
+Allow: /styles.css
+Allow: /script.js
+Allow: /assets/
