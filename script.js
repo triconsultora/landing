@@ -279,7 +279,7 @@ const ContactFormManager = {
   },
 
   handleResponse(result) {
-    if (result.status === "ok") {
+    if (result.status === "success") {
       this.showMessage(
         "¡Mensaje enviado correctamente! Te contactaremos pronto.",
         "success"
